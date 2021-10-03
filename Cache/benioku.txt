@@ -1,0 +1,2 @@
+video; ses + video şeklinde inicek sonrada birleştirilip Output klasörüne gidicektir, 
+birşeyler yanlış giderse kendiniz burdaki ses ve video dosyasını manual birleştirebilirsiniz.
