@@ -31,12 +31,8 @@ namespace YoutubeDownloader2
 
     class Program
     {
-        // .exe nin olduğu kısımda Output, Cache Images klasörlerini ekleyin 
-        // Cache 1080p için ses ve videoyu ayrı indirdiği yer (en sonda işe yaramadığı için silinsin mi diye sorulur)
         // Bazı codeclerde (???) ffmpeg hata veriyor cachedeki ses ve görüntüyü kendiniz birleştirsiniz 
         // şöyle: ffmpeg -i %video_adi.uzanti% -i %vses_dosyasi.uzanti% -c:v copy -c:a aac %çıkışAdi.istediğiniz_video_uzantisi% 
-        // Images video fotoğraflarını koyduğu yer
-        // Output indirilen videoların olacağı yer 
         public static string VIDEOPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Output";
         public static string CACHEPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Cache";
         public static string IMAGEPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Images";
