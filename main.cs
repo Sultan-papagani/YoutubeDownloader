@@ -139,7 +139,7 @@ namespace YoutubeDownloader2
 
         public static void ffmpegWork()
         {
-            string finalLocation = VIDEOPATH + "\\" + "F"+videoDatas.Video_Title +"."+ videoDatas.FFEXT;
+            string finalLocation = VIDEOPATH + "\\" + "F"+videoDatas.Video_Title +".mp4"; //+ videoDatas.FFEXT;
             if (File.Exists(finalLocation))
             {
                 Console.WriteLine("Bu video ZATEN var, enter'e basiniz");
