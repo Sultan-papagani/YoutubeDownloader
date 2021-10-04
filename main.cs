@@ -31,8 +31,7 @@ namespace YoutubeDownloader2
 
     class Program
     {
-        // Bazı codeclerde (???) ffmpeg hata veriyor cachedeki ses ve görüntüyü kendiniz birleştirsiniz 
-        // şöyle: ffmpeg -i %video_adi.uzanti% -i %vses_dosyasi.uzanti% -c:v copy -c:a aac %çıkışAdi.istediğiniz_video_uzantisi% 
+        // yeni : sorun çözüldü indirilen videolar ".mp4" olarak ineceği için ffmpeg hatası kalmadı...
         public static string VIDEOPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Output";
         public static string CACHEPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Cache";
         public static string IMAGEPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Images";
